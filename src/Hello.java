@@ -8,6 +8,9 @@ public class Hello {
         int myTotalNumber =(myFirstNumber+mySecondNumber+myThirdNumber);
         int myLastNumber =(1000-myTotalNumber);
         System.out.println(myLastNumber);
+        HelloWorld obj = new HelloWorld();
+        obj.printHello();
+        obj.printWorld();
     }
 
 }

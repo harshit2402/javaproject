@@ -1,6 +1,10 @@
 public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("hello world");
+    public void printHello() {
+        System.out.println("print hello");
         
+    }
+    public void printWorld() {
+        System.out.println("print world");
+
     }
 }

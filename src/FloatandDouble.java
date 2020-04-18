@@ -6,7 +6,6 @@ public class FloatandDouble {
         System.out.println( "Float Minimum Value =" +myMinFloatValue);
         System.out.println("Float Maxmimum Value =" +myMaxFloatValue);
 
-
         double myMindoubleValue = Double.MIN_VALUE;
         double myMaxdoubleValue = Double.MAX_VALUE;
         System.out.println( "double Minimum Value =" +myMindoubleValue);
