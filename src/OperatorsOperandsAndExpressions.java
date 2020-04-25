@@ -57,12 +57,22 @@ public class OperatorsOperandsAndExpressions {
 
             int newValue = 50;
             if (newValue == 50){
-                System.out.println("there is true");
+                System.out.println("this is true");
             }
             boolean isCar = false;
-            if (isCar !=true){
+            if (isCar ==true){
                 System.out.println("this is not supposed to happen");
             }
+            isCar = true;
+            boolean wasCar = isCar ? true : false;
+            if (wasCar){
+                System.out.println("wasCar is true");
+            }
+
+            int ageOfClient= 20;
+            boolean eighteenOrOver = (ageOfClient == 20) ? true : false;
+            System.out.println("Age of Client is over");
+
 
 
         }
